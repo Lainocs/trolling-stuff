@@ -43,7 +43,7 @@ function App() {
 
 	return (
 		<>
-			<div className='container w-screen min-h-screen flex flex-col justify-center items-center'>
+			<div className='container min-h-screen flex flex-col justify-center items-center'>
 				{/* fade out after scrolling */}
 				<img
 					src={profilePic}
