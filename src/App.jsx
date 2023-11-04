@@ -42,7 +42,7 @@ function App() {
 
 
 	return (
-		<>
+		<div className='flex flex-col justify-center items-center w-screen'>
 			<div className='container min-h-screen flex flex-col justify-center items-center'>
 				{/* fade out after scrolling */}
 				<img
@@ -168,7 +168,7 @@ function App() {
 				</p>
 			</div>
       <div id='trolling'></div>
-		</>
+		</div>
 	)
 }
 
